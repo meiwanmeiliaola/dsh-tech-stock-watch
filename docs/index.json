@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "title": { "zh": "meiwanmeiliaola 的插件", "en": "Plugins by meiwanmeiliaola" },
+  "description": {
+    "zh": "个人维护的 DeepSeek Harness 插件。",
+    "en": "DeepSeek Harness plugins maintained by meiwanmeiliaola."
+  },
+  "metadata": {
+    "categories": {
+      "market-data": { "title": { "zh": "行情数据", "en": "Market data" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-tech-stock-watch",
+      "title": { "zh": "科技股盘中监听", "en": "Tech stock watch" },
+      "description": {
+        "zh": "盯住 A 股科技板块成分股，涨跌幅、急拉急跌、放量、涨跌停炸板、主力资金异动时主动推送进当前会话；左栏可查看分时卡片墙、详情大图与日 K。",
+        "en": "Watches A-share technology constituents and pushes alerts into the current session on price moves, volume spikes, limit events, and money-flow shifts, with an intraday card wall and daily K-line detail page."
+      },
+      "icon": "icon.svg",
+      "author": "meiwanmeiliaola",
+      "homepage": "https://github.com/meiwanmeiliaola/dsh-tech-stock-watch",
+      "repository": { "url": "https://github.com/meiwanmeiliaola/dsh-tech-stock-watch" },
+      "metadata": {
+        "category": "market-data",
+        "keywords": ["a-share", "stock", "monitor", "alert", "market-data"]
+      },
+      "dist-tags": { "latest": "0.1.0" },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795191572,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/meiwanmeiliaola/dsh-tech-stock-watch",
+            "commit": "2d29df0af08cfb3babf4ec3898ae5cf77148df33"
+          },
+          "engines": { "dsh": ">=0.2.0-rc.2" }
+        }
+      ]
+    }
+  ]
+}

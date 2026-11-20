@@ -75,6 +75,22 @@
 3. 刷新页面（客户端模块需要重新注入）
 4. 在对话里说「开始盯盘」，或点左栏「科技股」图标
 
+## 从插件市场装
+
+插件市场按索引列举可安装的 bundle。在 profile 的 `cordis.patch.yml` 里追加这个索引：
+
+```yaml
+- id: plugin-market
+  name: "@deepseek-ai/dsh-plugin-market"
+  config:
+    indexes:
+      - https://meiwanmeiliaola.github.io/dsh-tech-stock-watch/index.json
+```
+
+重启后打开「插件市场」，能看到「科技股盘中监听」，点安装即可。索引文件在仓库的 `docs/index.json`，由 GitHub Pages 托管。
+
+索引是未签名的：能搜到只代表你信任了那个索引地址，不代表官方验证。
+
 **网络要求**：行情、分时、K 线都由本机 host 转发到腾讯，机器需要能访问 `qt.gtimg.cn`、`proxy.finance.qq.com`、`web.ifzq.gtimg.cn`。连不上时页面顶部会显示“分时已取 X/20 只”，并给出失败原因。
 
 ## 用
