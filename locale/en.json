@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tech stock watch",
+    "description": "Watches A-share technology constituents during trading hours and pushes an alert into this conversation on price moves, volume spikes, limit events, and money-flow shifts."
+  }
+}

@@ -1,0 +1,5 @@
+# 本 bundle 向 profile 注入的插件条目。
+# `name` 是包名，从 profile 的 node_modules 解析。
+- insert:
+    - id: tech-stock-watch
+      name: dsh-tech-stock-watch
