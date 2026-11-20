@@ -38,6 +38,9 @@
   "scripts": {
     "test": "node --test test/"
   },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  },
   "keywords": ["dsh", "plugin", "a-share", "stock", "monitor"],
   "license": "MIT"
 }
